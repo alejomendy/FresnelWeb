@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fresnel Zone Calculator</title>
+</head>
+<body>
+    <h1>Fresnel Zone Calculator</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Calculate</button>
+    </form>
+</body>
+</html>
